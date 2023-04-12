@@ -16,6 +16,7 @@ function App() {
       <Fotos />
       <Footer/>
     </div>
+    
   )
 }
 export default App
