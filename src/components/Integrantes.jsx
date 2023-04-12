@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from 'react-icons/bs';
 const sliderData = [
   {
-    url: '/lucas.jpg',
+    url: 'lucas.jpg',
   },
   {
-    url: '/nahue.jpg',
+    url: 'nahue.jpg',
   },
   {
-    url: '/franco.jpg',
+    url: 'franco.jpg',
   },
 ];
 const Integrantes = () => {
