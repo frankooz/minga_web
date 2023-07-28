@@ -13,9 +13,9 @@ const Section = () => {
     let imagesToShow: string[] = [];
 
     if (selectedButton === "todos") {
-      imagesToShow = ["agosto.jpg", "hero.jpg"];
+      imagesToShow = ["agosto.jpg", "evento.jpg"];
     } else if (selectedButton === "julio") {
-      imagesToShow = ["hero.jpg"];
+      imagesToShow = ["evento.jpg"];
     }
 
     return (
