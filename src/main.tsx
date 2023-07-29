@@ -4,7 +4,7 @@ import App from "./App";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <HashRouter basename={import.meta.env.DEV ? "/" : "/minga_web/"}>
+  <HashRouter>
     <App />
   </HashRouter>,
   document.getElementById("root")
